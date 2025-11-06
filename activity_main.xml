@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/balanceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/balance"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/incomeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/income_hint"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/addIncomeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_income"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"/>
+
+    <EditText
+        android:id="@+id/expenseEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expense_hint"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"
+        android:minHeight="48dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/addExpenseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_expense"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"/>
+
+</LinearLayout>
